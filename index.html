@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christmas Surprise 🎄</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Background Music -->
+<audio id="bgMusic" loop>
+    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+</audio>
+
+<button class="music-btn" onclick="toggleMusic()">🎶</button>
+
+<!-- Lights -->
+<div class="lights"></div>
+
+<!-- Floating Emojis -->
+<div class="float-container">
+    <span>❤️</span>
+    <span>✨</span>
+    <span>🎄</span>
+    <span>💫</span>
+    <span>❄️</span>
+</div>
+
+<!-- Card -->
+<div class="card" onclick="openCard()">
+    <div class="card-inner" id="cardInner">
+
+        <!-- CLOSED STATE -->
+        <div class="card-front">
+            <h1>🎄 Merry Christmas 🎄</h1>
+            <p class="tap-text">Tap to Open 💌</p>
+
+            <div class="seal">❤️</div>
+        </div>
+
+        <!-- OPENED STATE -->
+        <div class="card-back">
+            <h2>To My Best Friend ❤️</h2>
+            <p>
+                Thank you for being my constant, my chaos,
+                and my comfort. Not only because its christmas
+                that i am wishing. Neverthless the amount of
+                time we spent together, we became such a good friends.
+                Thanks for being in my lows. I promise you that I will
+                always be in your lows maybe not in your high"s but definitely
+                in your lows. Love you from my heart ❤️  A Merry christmas my dear❤️
+            </p>
+            <span>✨ Always ✨</span>
+        </div>
+
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
